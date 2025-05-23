@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: darkblue;
     --secondary-color: #eee;
@@ -55,19 +61,45 @@ aside {
     background-color: var(--secondary-color);
     color: var(--text-color);  
     text-align: center;
+    position: relative; /* Needed for absolute positioning inside */
 }
 aside img {
     width: var(--aside-img-width);
     height: auto;
+    display: block;
+    margin: 0 auto;
+}
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.7);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    z-index: 2;
 }
 
 main img {
     width: var(--main-img-width);
     height: auto;
+    float: right;
 }
 
 footer {
     margin-top: var(--footer-margin-top);
     border-top: var(--footer-border);
     text-align: center;
+}
+
+/* Class selectors */
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--primary-color);
+    background-color: #f0f8ff;
+    color: #222266;
 }
