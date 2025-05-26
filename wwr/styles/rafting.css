@@ -1,8 +1,8 @@
 :root{
-    --primary-color: 6C5145;    /* umber*/
-    --secondary-color: 6C7D9C;  /* glaucous */
-    --accent1-color: 423931;   /* taupe */
-    --accent2-color: DBDCE0;   /* platinum */ 
+    --primary-color: #6C5145;    /* umber*/
+    --secondary-color: #6C7D9C;  /* glaucous */
+    --accent1-color: #423931;    /* taupe */
+    --accent2-color: #DBDCE0;    /* platinum */ 
     --heading-font: "Roboto", sans-serif;
     --body-font: "Open Sans", sans-serif;
     --font-size: 16px;
@@ -69,5 +69,5 @@ article {
     float : right;
     width : 125px;
 }
-    
+
 
