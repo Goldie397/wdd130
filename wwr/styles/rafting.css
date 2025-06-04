@@ -170,4 +170,30 @@ section.adventures figcaption {
     width: 100%;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    background: var(--primary-color);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-media {
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+}
+
+footer .social-media a img {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
 
