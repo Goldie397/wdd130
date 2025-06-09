@@ -12,10 +12,10 @@ header {
     grid-template-columns: 2fr auto; /* nav left, logo right */
     align-items: center;
     max-width: 1000px;
-    margin: 1rem auto;
+    margin: 2rem auto;
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
 }
 
 header nav {
