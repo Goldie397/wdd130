@@ -367,5 +367,11 @@ form input[type="radio"] {
     text-align: left;
     margin: 0 0 2rem 0;
 }
+.header-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin: 0 2rem;
+    font-family: var(--heading-font);
+}
 
 
